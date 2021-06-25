@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+::selection {
+    background: gold;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* header */ 
+
+.header {
+    background: #282828;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+.menu {
+    display: flex;
+}
+
+header ul {
+    padding: 0;
+    display: flex;
+    position: relative;
+    list-style: none;
+    padding-left: 150px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+    list-style: none;
+    padding-left: 100px;
+}
+
+.menu img {
+    max-width: 60px;
+    max-height: 60px;
+    position: relative;
+}
+
+main {
+    background: -webkit-linear-gradient(45deg, rgb(254, 220, 146), rgb(208, 228, 167));
+    background: -moz-linear-gradient(45deg, rgb(254, 220, 146), rgb(208, 228, 167));
+    background: linear-gradient(45deg, rgb(254, 220, 146), rgb(208, 228, 167));
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    color: #282828;
+}
+
+main h2 {
+    font-size: 70px;
+    display: flex;
+    position: relative;
+}
+
+.img-honey {
+  max-width: 640px;
+  min-height: 426px; 
+  position: relative;
+  display: flex;
+}
