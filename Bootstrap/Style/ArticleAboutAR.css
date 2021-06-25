@@ -1,0 +1,297 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: rgb(242,204,121);
+    background: linear-gradient(342deg, rgba(242,204,121,1) 0%, rgba(165,191,255,1) 100%);
+}
+    
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 58px; 
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+section {
+    padding-top: 113px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
+    /* позиционирование по центру */
+}
+.header {
+    padding-top: 57px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 100px;
+    letter-spacing: 0.1em;
+    /* letter sp для того, чтобы было расстояние между буквами */
+}
+.nav {
+    display: flex;
+    align-items: center;
+    /* al-it чтобы элементы в шапке были посередине, а не прилипли к верху */
+}
+.about {
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+.description p {
+    max-width: 450px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 15px;
+    display: flex;
+    padding: 114px 0;
+     width: 49%;
+}
+
+.footer-text p {
+    margin-right: 60px;
+}
+.gallery {
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 150px;
+}
+.blockquote {
+    border-left: grey 5px solid;
+}
+.main1 {
+    overflow: auto;
+    max-width: 250px; 
+    max-height: 250px;
+  }
+.mycheck {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+form {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    max-width: 700px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.my-table{
+    padding: 100px;
+}
+.img {
+    margin: 100px;
+    max-height: 300px;
+    max-width: 400px;
+}
+.z21 {
+    padding: 100px;
+}
+.js1 {
+    padding-left: 150px;
+}
+
+footer {
+    display: flex;
+    background-color: #000;
+    margin-top: 64px;
+    padding: 32px 0;
+    color: #fff;
+}
+
+.nav_links {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.footer_links {
+    font-size: 24px;
+}
+
+.containerForm {
+    max-width: 320px;
+}
+
+.z36 {
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: right;   
+    align-items: right;
+}
+.mycheck {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.view {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center
+   }
+   .view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+   }
+   .view img {
+    display: block;
+    position: relative
+   }
+   .view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+   }
+   .view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+   }
+   .view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+   }
+   .view a.info:hover {
+    box-shadow: 0 0 5px #000
+   } 
+
+   .view-first img {
+    transition: all 0.2s linear;
+   }
+   .view-first .mask {
+    opacity: 0;
+    background-color: rgba(114, 145, 212, 0.7);
+    transition: all 0.4s ease-in-out;
+   }
+   .view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+   }
+   .view-first p {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
+   }
+   .view-first a.info{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+   }
+   
+   .view-first:hover img {
+    transform: scale(1.1);
+   }
+   .view-first:hover .mask {
+    opacity: 1;
+   }
+   .view-first:hover h2,
+   .view-first:hover p,
+   .view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+   }
+   .view-first:hover p {
+    transition-delay: 0.1s;
+   }
+   .view-first:hover a.info {
+    transition-delay: 0.2s;
+   }
+   .bg-yellow{
+    background-color: yellow;
+    opacity: 50%;
+    color: black;
+}
+
+.bg-green{
+    background-color: green;
+    opacity: 50%;
+}
+
+
+.bg-purple{
+    background-color: purple;
+    opacity: 50%;
+}
+
+.sortable-ul{
+    color: white;
+}

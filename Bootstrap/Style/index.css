@@ -1,0 +1,158 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+p{
+    margin: 0;
+}
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+section {
+    padding-top: 113px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    /* позиционирование по центру */
+}
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 69px;
+}
+
+.header {
+    background: url('img-head.jpg') no-repeat center top / cover;
+    padding-top: 57px;
+    padding-bottom: 322px;
+    padding-left: 150px;
+}
+
+header a {
+    color: aliceblue;
+}
+
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 100px;
+    letter-spacing: 0.1em;
+    /* letter sp для того, чтобы было расстояние между буквами */
+}
+.nav {
+    display: flex;
+    align-items: center;
+    /* al-it чтобы элементы в шапке были посередине, а не прилипли к верху */
+}
+.offer {
+    text-transform: uppercase;
+}
+.offer p {
+    margin-top: 100px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.offer h1 {
+    font-size: 75px;
+    color: aliceblue;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+}
+/* кнопка на всякий
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    text-decoration: none;
+}  */
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+.description p {
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+.description a {
+    text-decoration: none;
+}
+.description-left-text, .description-right-text {
+    text-align: justify;
+    width: 567px;
+}
+
+.footer-text {
+    font-size: 15px;
+    display: flex;
+    padding: 114px 0;
+}
+.footer-text p {
+    margin-right: 60px;
+}
+
+form {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    max-width: 700px;
+}
+
+/* задание 30 по js */
+
+.submit {
+    transition: .2s ease-in-out;
+    }
+    
+    
+    .submit:focus {
+    transform: scale(0.9);
+    }
+    
+    .request {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    }
+    
+    p {
+    padding: 0;
+    margin: 0;
+    }
+    
+    .count {
+    position: relative;
+    right: 0;
+    left: 0;
+    transition: .2s ease-in-out;
+ 
+    }

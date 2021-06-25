@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Сферы применения AR</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+        <style>
+        .ui-menu { width: 150px; }
+        </style>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="30z.js">
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" media="screen" />
+   
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#menu" ).menu();
+    } );
+    </script>
+
+</head>
+<body>
+
+            
+    <header class="header bg-dark p-3 navbar">
+        <div class="row">
+            <div class="navbar">
+                <img class="img-logo" src="#" alt="AR">
+                <ul class=" menu">
+                    <li class="col-sm-8">
+                        <a class="nav-link active" href="index.html">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="col-sm-8">
+                        <a class="nav-link active" href="#">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li class="col-sm-8">
+                        <a class="nav-link active" href="#">
+                            NEWS
+                        </a>
+                    </li>
+                    <li class="col-sm-8">
+                        <a class="nav-link active" href="../../papka/ArticleAboutAR.html">
+                            ARTICLE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="offer">
+                <p> узнай больше о </p>
+                <h1>
+                    Сферы применения дополненной реальности
+                </h1>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About AR</h2>
+            <div class="description">
+
+                <div class="description-left-text">  </div>
+                <p>Дополненная реальность активно используется
+                    в сфере развлечений, но уже начался процесс
+                    внедрения AR технологий в ключевых сферах жизни,
+                    о которых подробнее вы узнаете в нашей
+                <br> <br>
+                    Подробнее вы можете узнать в нашей <a href="../../papka/ArticleAboutAR.html">статье</a>
+                </p>
+                
+            </div>  
+            
+            <ul id="menu">
+                <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+                <li><div>Books</div></li>
+                <li><div>Clothing</div></li>
+                <li><div>Electronics</div>
+                  <ul>
+                    <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+                    <li><div>Car Hifi</div></li>
+                    <li><div>Utilities</div></li>
+                  </ul>
+                </li>
+                <li><div>Movies</div></li>
+                <li><div>Music</div>
+                  <ul>
+                    <li><div>Rock</div>
+                      <ul>
+                        <li><div>Alternative</div></li>
+                        <li><div>Classic</div></li>
+                      </ul>
+                    </li>
+                    <li><div>Jazz</div>
+                      <ul>
+                        <li><div>Freejazz</div></li>
+                        <li><div>Big Band</div></li>
+                        <li><div>Modern</div></li>
+                      </ul>
+                    </li>
+                    <li><div>Pop</div></li>
+                  </ul>
+                </li>
+                <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+              </ul>
+
+            <br><br><br><br><br><br>
+
+              <!-- задание 36 (лекция) -->
+<div id="dialog_window_1" class="dialog_window" title="Это наше первое диалоговое окно">
+    <p>Привет, мир!</p>
+ </div>
+ <script>
+    $(document).ready(function() {
+       $('#dialog_window_1').dialog();
+    });
+ </script>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+ <h3>Создание нового окна </h3>
+ <table class="dialog_form">
+    <tr>
+       <th>Заголовок окна </th>
+    </tr>
+    <tr>
+       <td><input type="text" id="new_window_title" /></td>
+    </tr>
+    <tr>
+       <th>
+    </th>
+</tr>
+<tr>
+   <td>
+      <textarea id="new_window_content"></textarea>
+   </td>
+</tr>
+<tr>
+   <th>
+      Кнопки окна
+   </th>
+</tr>
+<tr>
+   <td id="buttonlist">
+      <input type="checkbox" id="alertbutton" /><label for="alertbutton">Предупреждение </label>
+      <input type="checkbox" id="closebutton" /><label for="closebutton">Закрыть </label>
+           </td>
+</tr>
+</table>
+        <div>
+     </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="request">
+                <p>Заявок:</p>
+                <div class="count">
+                </div>
+                
+                </div> 
+                <div class="containerForm m-lg-auto m-5 p-2 title text-dark text-center shadow-lg rounded">       
+                <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваша почта">
+                </div>
+                <div class="form-group">
+                <textarea class="form-control mt-2" id="exampleFormControlTextarea1" placeholder="Ваш отзыв" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2 submit">Отправить</button>        
+                </div>
+            <div class="footer-text">
+            <p> ©2021 elizaveta petryaeva project </p>
+            <div class="footer-text-2">
+            <p> Лиза Петряева </p>
+            </div>
+            </div>
+        </div>
+    </footer>
+    
+     
+    <script src="./30z.js"></script>
+    
+</body>
+</html>
